@@ -1,6 +1,6 @@
 /**
- * @name NotiumMessageListener
- * @version 0.0.1
+ * @name Notium
+ * @version 0.1.0
 */
 
 const request = require("request");
@@ -9,19 +9,18 @@ const path = require("path");
 
 const config = {
     info: {
-    name: "NotiumMessageListener",
+    name: "Notium",
     authors: [
         {
             name: "Jvuns"
         }
     ],
-    version: "0.0.1",
+    version: "0.1.0",
     description: "Listens for notifications",
 	},
   changelog: [],
   defaultConfig: []
 };
-
 
 module.exports = !global.ZeresPluginLibrary
   ? class {
